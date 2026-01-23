@@ -1,1 +1,130 @@
-cc
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arras | L'Élégance du Nord</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="logo">ARRAS<span>.tourisme</span></div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Accueil</a></li>
+            <li><a href="history.html">Histoire de la ville</a></li>
+            <li><a href="heritage.html">Patrimoine</a></li>
+            <li><a href="restaurants.html">Restaurants</a></li>
+            <li><a href="#contact" class="btn-reserver">Visiter</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in">
+            <h1>Arras, la Perle du Nord</h1>
+            <p>Découvrez l'harmonie parfaite entre architecture baroque et art de vivre.</p>
+            <a href="#discover" class="btn-main">Explorer la ville</a>
+        </div>
+        <div class="scroll-down">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section id="discover" class="intro section-padding">
+        <div class="container">
+            <div class="intro-text reveal">
+                <h2>Une ville d'exception</h2>
+                <div class="divider"></div>
+                <p>À seulement 50 minutes de Paris, Arras surprend par la richesse de son patrimoine. Ses deux places baroques uniques au monde, son Beffroi classé à l'UNESCO et sa Citadelle font d'elle une destination incontournable des Hauts-de-France.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="highlights section-padding">
+        <div class="container">
+            <div class="grid-cards">
+                <a href="heritage.html" class="card reveal">
+                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1548625361-9cc9435b6c2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="card-content">
+                        <h3>Patrimoine & Architecture</h3>
+                        <p>Plongez au cœur des Places et explorez les Boves souterrains.</p>
+                        <span class="link-arrow">Découvrir <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+
+                <a href="history.html" class="card reveal delay-100">
+                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1572007664032-132d75571477?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="card-content">
+                        <h3>Une Histoire Millénaire</h3>
+                        <p>De l'Artois médiéval aux lignes de front de la Grande Guerre.</p>
+                        <span class="link-arrow">Lire l'histoire <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+
+                <a href="restaurants.html" class="card reveal delay-200">
+                    <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                    <div class="card-content">
+                        <h3>Art de Vivre & Gastronomie</h3>
+                        <p>Savourez l'Andouillette, les gaufres et la convivialité du Nord.</p>
+                        <span class="link-arrow">Nos restaurants <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner-parallax">
+        <div class="banner-content reveal">
+            <h2>"Le plus beau salon de France"</h2>
+            <p>— Victor Hugo, à propos de la Grand'Place</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>ARRAS<span>.tourisme</span></h3>
+                <p>L'Office de Tourisme vous accueille toute l'année pour vous faire découvrir les trésors de l'Artois.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Liens Rapides</h4>
+                <ul>
+                    <li><a href="#">Mentions Légales</a></li>
+                    <li><a href="#">Plan de la ville</a></li>
+                    <li><a href="#">Agenda Culturel</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>Hôtel de Ville, Place des Héros</p>
+                <p>62000 Arras, France</p>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Ville d'Arras - Site Vitrine Démo.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
